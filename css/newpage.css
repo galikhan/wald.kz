@@ -16,17 +16,17 @@ body {
 }
 
 
-/* скрываем чекбокс */
+/* ÑÐºÑ€Ñ‹Ð²Ð°ÐµÐ¼ Ñ‡ÐµÐºÐ±Ð¾ÐºÑ */
 #menu__toggle {
   opacity: 0;
 }
 
-/* стилизуем кнопку */
+/* ÑÑ‚Ð¸Ð»Ð¸Ð·ÑƒÐµÐ¼ ÐºÐ½Ð¾Ð¿ÐºÑƒ */
 .menu__btn {
   display: flex;
-  /* используем flex для центрирования содержимого */
+  /* Ð¸ÑÐ¿Ð¾Ð»ÑŒÐ·ÑƒÐµÐ¼ flex Ð´Ð»Ñ Ñ†ÐµÐ½Ñ‚Ñ€Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ñ ÑÐ¾Ð´ÐµÑ€Ð¶Ð¸Ð¼Ð¾Ð³Ð¾ */
   align-items: center;
-  /* центрируем содержимое кнопки */
+  /* Ñ†ÐµÐ½Ñ‚Ñ€Ð¸Ñ€ÑƒÐµÐ¼ ÑÐ¾Ð´ÐµÑ€Ð¶Ð¸Ð¼Ð¾Ðµ ÐºÐ½Ð¾Ð¿ÐºÐ¸ */
   position: fixed;
   top: 20px;
   left: 20px;
@@ -36,7 +36,7 @@ body {
   z-index: 1;
 }
 
-/* добавляем "гамбургер" */
+/* Ð´Ð¾Ð±Ð°Ð²Ð»ÑÐµÐ¼ "Ð³Ð°Ð¼Ð±ÑƒÑ€Ð³ÐµÑ€" */
 .menu__btn>span,
 .menu__btn>span::before,
 .menu__btn>span::after {
@@ -58,7 +58,7 @@ body {
 }
 
 
-/* контейнер меню */
+/* ÐºÐ¾Ð½Ñ‚ÐµÐ¹Ð½ÐµÑ€ Ð¼ÐµÐ½ÑŽ */
 .menu__box {
   display: block;
   position: fixed;
@@ -75,7 +75,7 @@ body {
   box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
 }
 
-/* элементы меню */
+/* ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ñ‹ Ð¼ÐµÐ½ÑŽ */
 .menu__item {
   display: block;
   padding: 12px 24px;
@@ -219,7 +219,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  padding: 9px 0px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   z-index: 1000;
   height: 30px;
@@ -235,7 +235,7 @@ body {
 
 .header .logo img {
   height: 50px;
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 .header .title {
@@ -251,12 +251,10 @@ body {
   background-color: #616161;
   /* border: none; */
   color: #333;
-  margin-right: 30px;
+  /* margin-right: 30px; */
   height: 50px;
   width: 100px;
   border: #333;
-  
-  
 }
 
 .overlay {
