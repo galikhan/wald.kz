@@ -58,7 +58,8 @@
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: Source Sans Pro, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  /* --bs-body-font-family: Source Sans Pro, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; */
+  --bs-body-font-family: 'Univers LT Std', 'Source Sans Pro';
 
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
@@ -10944,19 +10945,23 @@ footer.footer .social-link:hover {
     height: 75%;
   }
 }
-/* .masthead {
-  min-height: 30rem;
+ header {
+  /* min-height: 30rem;
   position: relative;
   display: table;
   width: 100%;
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
-} */
+  background-size: cover; */
+  background: rgb(88,88,89);
+  background: linear-gradient(0deg, rgba(88,88,89,1) 0%, rgba(255,255,255,1) 30%);
+  z-index: 10;;
+}
+
 /* .masthead h1, .masthead .h1 {
   font-size: 4rem;
   margin: 0;
@@ -11055,6 +11060,8 @@ footer.footer .social-link:hover {
   margin: 70px;
   padding: 0;
   list-style: none;
+  text-transform: uppercase;
+  font-weight: 200;
 }
 
 .sidebar-nav li.sidebar-nav-item a {
@@ -11076,8 +11083,8 @@ footer.footer .social-link:hover {
 }
 
 .sidebar-nav > .sidebar-brand {
-  font-size: 1.2rem;
-  background: rgba(52, 58, 64, 0.1);
+  font-size: 1.875em;
+  /* background: rgba(52, 58, 64, 0.1); */
   height: 80px;
   line-height: 50px;
   padding-top: 15px;
@@ -11092,7 +11099,8 @@ footer.footer .social-link:hover {
 
 .sidebar-nav > .sidebar-brand a:hover {
   color: #fff;
-  background: none;
+  /* background: none; */
+  background: rgba(52, 58, 64, 0.1);
 }
 
 
@@ -11158,7 +11166,7 @@ header {
       height: 100%;
       width: 100%;
       background-color: black;
-      opacity: 0.15;
+      opacity: 0.3;
       z-index: 1;
     }
     
@@ -11228,6 +11236,7 @@ header {
 
 .button-label {
   font-size: 1em;
-    letter-spacing: .15em;
-    margin-left: .5em;
+  font-weight: 100;
+  letter-spacing: .15em;
+  margin-left: .5em;
 }
