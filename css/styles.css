@@ -11045,7 +11045,7 @@ footer.footer .social-link:hover {
   padding: 0;
   list-style: none;
   text-transform: uppercase;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .sidebar-nav li.sidebar-nav-item a {
@@ -11144,21 +11144,6 @@ header {
       z-index: 2;
     }
     
-    header .overlay {
-      position: absolute;
-      top: 0;
-      left: 0;
-      height: 100%;
-      width: 100%;
-      background-color: black;
-      opacity: 0.3;
-      z-index: 1;
-
-        /* background: rgb(88,88,89); */
-      /* background: linear-gradient(0deg, rgba(88,88,89,1) 0%, rgba(255,255,255,1) 30%); */
-      /* z-index: 10; */
-
-    }
     
 
     .home-explore-logo {
@@ -11168,7 +11153,7 @@ header {
     
     .home-explore-tools{
       margin: 0 auto;
-      position: relative;
+      /* position: relative; */
       top: 45%;
       transform: translateY(-50%);
       width: 30em;
@@ -11235,4 +11220,29 @@ header {
   position: absolute;
   width: 100%;
   bottom: 100px;
+}
+
+/* .container-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background-image: linear-gradient(0deg, #0e0e0e .5em, hsla(0, 0%, 5%, .1) 16%);
+} */
+
+header .overlay {
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.3;
+  z-index: 1;
+
+    /* background: rgb(88,88,89); */
+  /* background: linear-gradient(0deg, rgba(88,88,89,1) 0%, rgba(255,255,255,1) 30%); */
+  /* z-index: 10; */
+
 }
