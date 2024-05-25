@@ -1,212 +1,4 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-.fixed-menu {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: #858585;
-  color: white;
-  text-align: center;
-  padding: 10px 0;
-  z-index: 1000;
-}
-
-
-/* ÑÐºÑ€Ñ‹Ð²Ð°ÐµÐ¼ Ñ‡ÐµÐºÐ±Ð¾ÐºÑ */
-#menu__toggle {
-  opacity: 0;
-}
-
-/* ÑÑ‚Ð¸Ð»Ð¸Ð·ÑƒÐµÐ¼ ÐºÐ½Ð¾Ð¿ÐºÑƒ */
-.menu__btn {
-  display: flex;
-  /* Ð¸ÑÐ¿Ð¾Ð»ÑŒÐ·ÑƒÐµÐ¼ flex Ð´Ð»Ñ Ñ†ÐµÐ½Ñ‚Ñ€Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ñ ÑÐ¾Ð´ÐµÑ€Ð¶Ð¸Ð¼Ð¾Ð³Ð¾ */
-  align-items: center;
-  /* Ñ†ÐµÐ½Ñ‚Ñ€Ð¸Ñ€ÑƒÐµÐ¼ ÑÐ¾Ð´ÐµÑ€Ð¶Ð¸Ð¼Ð¾Ðµ ÐºÐ½Ð¾Ð¿ÐºÐ¸ */
-  position: fixed;
-  top: 20px;
-  left: 20px;
-  width: 26px;
-  height: 26px;
-  cursor: pointer;
-  z-index: 1;
-}
-
-/* Ð´Ð¾Ð±Ð°Ð²Ð»ÑÐµÐ¼ "Ð³Ð°Ð¼Ð±ÑƒÑ€Ð³ÐµÑ€" */
-.menu__btn>span,
-.menu__btn>span::before,
-.menu__btn>span::after {
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  background-color: #616161;
-}
-
-.menu__btn>span::before {
-  content: '';
-  top: -8px;
-}
-
-.menu__btn>span::after {
-  content: '';
-  top: 8px;
-}
-
-
-/* ÐºÐ¾Ð½Ñ‚ÐµÐ¹Ð½ÐµÑ€ Ð¼ÐµÐ½ÑŽ */
-.menu__box {
-  display: block;
-  position: fixed;
-  visibility: hidden;
-  top: 0;
-  left: -100%;
-  width: 300px;
-  height: 100%;
-  margin: 0;
-  padding: 80px 0;
-  list-style: none;
-  text-align: center;
-  background-color: #ECEFF1;
-  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
-}
-
-/* ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ñ‹ Ð¼ÐµÐ½ÑŽ */
-.menu__item {
-  display: block;
-  padding: 12px 24px;
-  color: #333;
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  font-weight: 600;
-  text-decoration: none;
-}
-
-.menu__item:hover {
-  background-color: #CFD8DC;
-}
-
-.fixed-menu ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-
-#menu__toggle:checked~.menu__btn>span {
-  transform: rotate(45deg);
-}
-
-#menu__toggle:checked~.menu__btn>span::before {
-  top: 0;
-  transform: rotate(0);
-}
-
-#menu__toggle:checked~.menu__btn>span::after {
-  top: 0;
-  transform: rotate(90deg);
-}
-
-#menu__toggle:checked~.menu__box {
-  visibility: visible;
-  left: 0;
-}
-
-.fixed-menu ul li {
-  display: inline;
-  margin: 0 15px;
-}
-
-.fixed-menu ul li a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.fixed-menu ul li a:hover {
-  text-decoration: underline;
-}
-
-.content {
-  margin-top: 60px;
-  /* Adjust depending on the height of your fixed menu */
-  padding: 20px;
-}
-
-section {
-  margin-bottom: 50px;
-}
-
-ul li a {
-  color: red;
-}
-
-h1 {
-  color: rebeccapurple;
-}
-
-
-.footer {
-  background-color: #f8f9fa;
-  text-align: center;
-  padding-bottom: 20px;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 10px;
-  row-gap: 15px;
-}
-
-.col {
-  flex: 1;
-  max-width: 33.3333%;
-  padding: 10px;
-  box-sizing: border-box;
-}
-
-.col-full {
-  max-width: 100%;
-}
-
-.social-links a {
-  margin: 0 5px;
-  text-decoration: none;
-  color: inherit;
-  font-size: 24px;
-}
-
-.icon {
-  font-size: 24px;
-}
-
-.contact-info,
-.working-hours {
-  margin-top: 20px;
-}
-
-.contact-info p,
-.working-hours p {
-  margin: 5px 0;
-}
-
-.text-center {
-  text-align: center;
-}
-
-@media (max-width: 768px) {
-  .col {
-    max-width: 100%;
-  }
-}
-
-
-body {
   margin: 0;
   font-family: Arial, sans-serif;
 }
@@ -225,17 +17,10 @@ body {
   height: 30px;
 }
 
-/* .header .logo {
-  font-size: 24px;
-  font-weight: bold;
-  color: white;
-  background-color: #c7322e;
-  padding: 5px 10px;
-} */
 
 .header .logo img {
   height: 50px;
-  /* padding: 10px; */
+ 
 }
 
 .header .title {
@@ -249,9 +34,9 @@ body {
   cursor: pointer;
   background: none;
   background-color: #616161;
-  /* border: none; */
+ 
   color: #333;
-  /* margin-right: 30px; */
+ 
   height: 50px;
   width: 100px;
   border: #333;
@@ -263,7 +48,7 @@ body {
   position: fixed;
   z-index: 1001;
   top: 0;
-  left: 0;
+  right: 0;
   background-color: rgba(0, 0, 0, 0.9);
   overflow-x: hidden;
   transition: 0.5s;
@@ -299,27 +84,23 @@ main {
   padding: 20px;
 }
 
-section {
-  background: #fff;
-  margin-bottom: 20px;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.container{
+  margin-top: 50px;
+    
 }
 
-section h2,
-section h3 {
-  color: #004080;
+.page-header{
+      background-color: #0e0e0e;
+        padding: 4.375em 0;
+        text-align: center;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
+.page-header-title{
+  color:#fff
 }
 
-ul li {
-  background: #e0e0e0;
-  margin: 10px 0;
-  padding: 10px;
-  border-radius: 5px;
+.scrollspy-example {
+  position: relative;
+  height: 200px;
+  overflow: auto;
 }
