@@ -160,3 +160,22 @@ section h3 {
   letter-spacing: .15em;
   margin-left: .5em;
 }
+
+
+.page-header{
+  background-color: #0e0e0e;
+  text-align: center;
+  margin-top: 63.5px;
+  padding: 50px 0px;
+  margin-bottom: 20px;
+}
+
+.page-header-title{
+  color:#fff
+}
+
+.scrollspy-example {
+  position: relative;
+  height: 350px;
+  overflow: auto;
+}
