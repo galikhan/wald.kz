@@ -157,6 +157,7 @@ header .container {
     color: #626262;
     background-color: white;
     border: 1px solid white;
+    padding-top: 17px;
 }
 
 .dark:hover {
