@@ -11107,3 +11107,6 @@ footer.footer .social-link:hover {
   width: 6.25em;
 }
 
+.social-icons a {
+  margin: 10px;
+}

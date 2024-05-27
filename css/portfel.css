@@ -99,6 +99,11 @@ section h3 {
   color: #fff
 }
 
+
+.social-icons a {
+  margin: 10px;
+}
+
 .scrollspy-example {
   position: relative;
   height: 350px;
@@ -146,4 +151,79 @@ section h3 {
 
 .card:hover .card-img-overlay{
   background-color: rgb(8 7 7 / 80%);
+}
+
+.modal{
+  background: #333333d2;
+}
+
+/* .modal-content{
+  background:#0e0e0e
+} */
+
+/* .modal-title{
+  color: #fff;
+} */
+
+
+.img-styled {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text-styled {
+  padding: 10px;
+  /* font-family: 'Arial, sans-serif'; */
+  font-size: 1.1rem;
+  line-height: 1.5;
+  /* color: #ffffff; */
+}
+
+.row .inner-row{
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.container-icon {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+.icon{
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+/* .row .inner-col{
+  padding: 80px;
+} */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  margin-top: 30px;
+}
+
+.footer a {
+  color: #fff;
+}
+
+.footer .list-inline-item:not(:last-child) {
+  border-right: 1px solid #fff;
+  padding-right: 15px;
+  margin-right: 15px;
+}
+
+.footer .social-icons a {
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+.footer .secondary-links a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.footer .secondary-links a:hover {
+  text-decoration: none;
 }
