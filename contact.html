@@ -4,96 +4,63 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fixed Menu Example</title>
-  <link href="css/newpage.css" rel="stylesheet">
+  <title>WALD ltd. О нас. Компания и миссия</title>
+  <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
+    rel="stylesheet" type="text/css" />
+  <link href="css/styles.css" rel="stylesheet" />
+  <link href="css/portfel.css" rel="stylesheet">
 </head>
 
 <body>
 
 
   <div class="header">
+
     <div class="logo">
       <a href="/"><img src="assets/logo.svg" title="WALD ltd." alt="WALD ltd."></a>
     </div>
-    <div class="title">We are the champions</div>
-    <button class="menu-btn" onclick="openNav()">☰ MENU</button>
-    <!-- <div class="menu-btn" onclick="openNav()">☰ MENU</div> -->
+
+    <div class="nav-button-wrapper">
+      <button class="menu-toggle" style="display: none;"></button>
+      <button aria-controls="site-nav" aria-expanded="false" aria-haspopup="true"
+        class="main-menu-toggle custom-btn dark">
+        <i class="fas fa-bars"></i>
+        <span class="button-label">
+          МЕНЮ
+        </span>
+      </button>
+    </div>
   </div>
 
-  <div id="myNav" class="overlay">
-    <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">×</a>
-    <a href="#page-top">О Нас</a>
-    <a href="#page-top">Портфель</a>
-    <a href="home.html">Main</a>
-    <a href="#about">Сотрудничество</a>
-    <a href="#services">Наш вклад</a>
-    <a href="#contact">Контакты</a>
+  <nav id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+      <li class="sidebar-brand"><a href="about-us.html">О Нас</a></li>
+      <li class="sidebar-brand"><a href="projects.html">Портфель</a></li>
+      <li class="sidebar-brand"><a href="cooperation.html">Сотрудничество</a></li>
+      <li class="sidebar-brand"><a href="contribution.html">Наш вклад</a></li>
+      <li class="sidebar-brand"><a href="contact.html">Контакты</a></li>
+    </ul>
+  </nav>
 
+  <div class="page-header" id="page-header">
+    <div class="page-wrapper">
+      <h3 class="
+      h1-title">Контакты</h3>
+    </div>
+  </div>
+  <div class="container">
 
   </div>
+ 
 
-
-  <section id="footer">
-    <footer class="footer">
-      <div class="row">
-        <div class="col col-full">
-          <p>Мы в соцсетях</p>
-          <div class="social-links">
-            <a href="#"><i class="icon">YT</i></a>
-            <a href="#"><i class="icon">TW</i></a>
-            <a href="#"><i class="icon">IG</i></a>
-            <br />
-            <a href="#"><i class="icon">GH</i></a>
-            <a href="#"><i class="icon">GH</i></a>
-            <a href="#"><i class="icon">FB</i></a>
-          </div>
-        </div>
-        <div class="col">
-          <div class="contact-info">
-            <div class="text-center">
-              <i class="icon">ENV</i>
-            </div>
-            <p>ТОО "Aspan Software"</p>
-            <p>Юридический адрес : город Astana, ул Кайым Мухамедханова 6а<br />
-              <a href="tel:87057590099">+7(705)777-77-77</a><br />
-              <a href="tel:87010716140">+7(771)771-71-70</a>
-            </p>
-            <div class="text-center">
-              <i class="icon">CLK</i>
-            </div>
-            <div class="working-hours">
-              <p>График работы:</p>
-              <p>Пн-Пт: 12:00 — 18:00</p>
-              <p>Сб: 14:00 — 14:00</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="text-center">
-            <i class="icon">MAP</i>
-          </div>
-          <p>
-            в г.Астана <br />
-            ул Кайым Мухамедханова 6а 4 этаж<br />
-            <a href="tel:87052396303">+7(785)777-77-77</a><br />
-            <a href="tel:8(705)7592999">+7(775)999-99-99</a>
-          </p>
-        </div>
-      </div>
-
-      <div class="text-center">
-        <p>© 2024 JSE «MasterCoffe»</p>
-      </div>
-    </footer>
-  </section>
-  </div>
 
 </body>
 
-
-<script src="js/scripts.js">
-
-</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/scripts.js"></script>
 
 
 
