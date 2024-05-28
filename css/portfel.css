@@ -172,11 +172,9 @@ section h3 {
 }
 
 .text-styled {
-  padding: 20px;
-  /* font-family: 'Arial, sans-serif'; */
+  padding: 10px 50px;
   font-size: 1.1rem;
   line-height: 1.5;
-  /* color: #ffffff; */
 }
 
 .row .inner-row{
