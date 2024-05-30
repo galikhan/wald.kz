@@ -134,8 +134,12 @@ section h3 {
 
 
 .tab-content-margin{
-  margin-top: 30px;
-  /* min-height: 55vh; */
+  margin-top: 8px;
+}
+
+.tab-content{
+  /* margin-top: 8px; */
+  padding-bottom: 40px;
 }
 
 
