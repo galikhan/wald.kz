@@ -12671,10 +12671,6 @@ html {
   max-width: 30rem;
 }
 
-footer.footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
 
 footer.footer .social-link {
   display: block;
@@ -12921,7 +12917,6 @@ footer.footer .social-link:hover {
 .page-header {
   background-color: var(--bs-body-color);
   text-align: center;
-  margin-top: 62px;
   padding: 30px 0px;
   margin-bottom: 25px;
 }
@@ -13011,16 +13006,19 @@ footer.footer .social-link:hover {
   font-size: 18px;
 }
 
-footer.footer {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
 .footer {
   background-color: var(--bs-body-color);
   color: #fff;
-  padding: 20px 0;
-  margin-top: 30px;
+  /* padding: 20px 0; */
+  /* margin-top: 30px; */
+  
+}
+footer.footer{
+  /* padding-top: 2rem;
+  padding-bottom: 2rem; */
+  width: 100%;
+  position: fixed;
+  bottom: 0;
 }
 
 
@@ -13079,3 +13077,8 @@ footer.footer {
   border: 0;
 }
 
+
+.dummy-div {
+  width: 100%;
+  height: 62px;
+}
