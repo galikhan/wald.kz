@@ -82,14 +82,6 @@ header .container {
     bottom: 100px;
 }
 
-/* .container-wrapper {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: 10;
-    background-image: linear-gradient(0deg, #0e0e0e .5em, hsla(0, 0%, 5%, .1) 16%);
-  } */
-
 header .overlay {
 
     position: absolute;
@@ -100,9 +92,17 @@ header .overlay {
     background-color: black;
     opacity: 0.3;
     z-index: 1;
-
-    /* background: rgb(88,88,89); */
-    /* background: linear-gradient(0deg, rgba(88,88,89,1) 0%, rgba(255,255,255,1) 30%); */
-    /* z-index: 10; */
-
 }
+
+@media screen and (max-width:600px) {
+    .custom-btn {
+      height: 42px;
+      font-size: 12px;
+    }
+    .home-explore-tools {
+      width: 20em;
+    }
+    .light {
+        padding-top: 11px;
+    }
+  }
