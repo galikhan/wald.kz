@@ -169,7 +169,7 @@ footer.footer{
 }
 
 @media (max-width: 700px) {
-  svg {
+  .worldmap svg {
     width: 332px;
     height: 297px;
   }
