@@ -43,15 +43,12 @@
 
     .worldmap {
       width: 100%;
-      max-width: 1280px;
-      margin: auto;
-      overflow: hidden;
     }
 
-    @media (max-width: 700px) {
+    /* @media (max-width: 700px) {
       .worldmap svg {
         position: absolute;
-        /* left: 35%; */
+        left: 35%;
         top: 0;
         height: 700px;
         width: auto;
@@ -82,7 +79,7 @@
         width: 100%;
         height: 100%;
       }
-    }
+    } */
 
     /* modal */
     .modal1,
@@ -114,10 +111,12 @@
       animation-duration: 0.4s
     }
 
-    @media (min-width: 350px) {
-      .modal-content {
-        margin: auto;
-        width: 350px
+    @media (max-width: 600px) {
+      svg {
+        height: 400px;
+        width: 480px;
+        /* margin: auto;
+        width: 350px */
       }
     }
 
@@ -174,7 +173,7 @@
         <div class="worldmap">
           <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
-          <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://web.resource.org/cc/"
+          <svg viewBox="20 0 700 700" width="700" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://web.resource.org/cc/"
             xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg"
             xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
             xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="657.81799" height="369.48447"
