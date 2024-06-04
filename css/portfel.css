@@ -171,3 +171,8 @@ section h3 {
   }
 }
 
+ .header .new-element{
+   display: none;
+  font-size: var(--bs-nav-link-font-size);
+   /* color: white; */
+ }
