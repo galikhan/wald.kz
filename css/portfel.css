@@ -173,6 +173,6 @@ section h3 {
 
  .header .new-element{
    display: none;
-  font-size: var(--bs-nav-link-font-size);
+  font-size: 18px;
    /* color: white; */
  }
