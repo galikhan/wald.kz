@@ -175,4 +175,20 @@ section h3 {
    display: none;
   font-size: 18px;
    /* color: white; */
+   font-weight: 500;
+ }
+
+
+ @media(max-width:500px) {
+  
+  .header .logo img {
+     width: 110px;
+     max-height:63px ;
+      
+    }
+    
+    .header .nav-button-wrapper{
+      width: 110px;
+        max-height: 63px;
+    }
  }
