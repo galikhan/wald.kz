@@ -1,8 +1,8 @@
-let itemH = "Месторождения";
+let itemH = "Геологоразведочные проекты";
 $(".nav-link").click(function () {
   itemH = $(this).attr("id");
   if (itemH == "pills-home-tab") {
-    itemH = "Месторождения";
+    itemH = "Геологоразведочные проекты";
   } else if (itemH == "pills-profile-tab") {
     itemH = "Образование";
   } else {
