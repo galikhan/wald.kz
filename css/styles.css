@@ -12933,7 +12933,7 @@ footer.footer .social-link:hover {
 
 
 .header-toggle-menu-button {
-  border-bottom: 0.1px solid #fff !important;
+  border-bottom: 0.1px solid #fff;
 }
 
 
@@ -13094,5 +13094,40 @@ footer.footer{
   .header .nav-button-wrapper {
     width: 110px;
     max-height: 63px;
+  }
+  .header .new-element {
+    text-align: center;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      width: 40%;
+  }
+
+  /* .container .nav-link{
+    display: flex;
+    justify-content: start;
+  } */
+
+        .header-toggle-menu-button {
+          border-bottom: none;
+        }
+        .nav-pills {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          
+        }
+       
+}
+
+@media(max-width:990px){
+  .map-cont .map-responsive {
+      margin-bottom: 40px;
+    }
+}
+
+@media(max-width:500px) {
+  .map-cont .map-responsive {
+    margin-bottom: 80px;
   }
 }
